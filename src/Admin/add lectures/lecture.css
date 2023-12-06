@@ -1,0 +1,40 @@
+.lecture-add {
+  text-align: center;
+  min-height: 80vh;
+
+  & button {
+    background-color: #8a4baf;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  & form {
+    width: 250px;
+    margin: auto;
+    & input,
+    video {
+      width: 230px;
+      padding: 5px;
+      margin-top: 10px;
+    }
+
+    & img {
+      width: 250px;
+    }
+
+    & button {
+      background-color: #8a4baf;
+      color: white;
+      padding: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .loading-btn {
+      background-color: #bb95d0;
+      color: gray;
+      pointer-events: none;
+    }
+  }
+}

@@ -1,0 +1,112 @@
+.sidebar {
+  width: 200px;
+  height: 100%;
+  left: 0;
+  color: #fff;
+  border-right: 1px solid gray;
+
+  @media (max-width: 778px) {
+    width: 30px;
+  }
+
+  .logo {
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 12px;
+
+    @media (max-width: 778px) {
+      padding: 1px;
+    }
+
+    @media (max-width: 778px) {
+      text-align: center;
+    }
+
+    & span {
+      @media (max-width: 778px) {
+        display: none;
+      }
+    }
+  }
+
+  & ul {
+    list-style: none;
+    padding: 0;
+
+    & li {
+      margin-bottom: 10px;
+      cursor: pointer;
+      padding: 12px;
+      @media (max-width: 778px) {
+        padding: 7px;
+      }
+
+      &:hover {
+        background-color: gray;
+      }
+
+      & a {
+        display: flex;
+        text-decoration: none;
+        color: blueviolet;
+
+        & span {
+          margin-left: 15px;
+
+          @media (max-width: 778px) {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+.dashboard-teacher {
+  display: flex;
+  min-height: 80vh;
+  margin-top: 20px;
+  color: white;
+
+  .main-content {
+    display: flex;
+
+    @media (max-width: 778px) {
+      flex-direction: column;
+    }
+
+    .box {
+      margin-left: 20px;
+      background: #8a4baf;
+      padding: 5px;
+      border-radius: 5px;
+      height: 20px;
+    }
+
+    .courses-list {
+      margin-left: 20px;
+      .items {
+        background: #8a4baf;
+        padding: 5px;
+        border-radius: 5px;
+        display: flex;
+        margin-top: 10px;
+
+        & img {
+          width: 50px;
+          margin-left: 20px;
+        }
+
+        & button {
+          margin-left: 10px;
+          cursor: pointer;
+          background-color: white;
+          color: black;
+          border: none;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}

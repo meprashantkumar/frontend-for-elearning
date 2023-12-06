@@ -1,0 +1,17 @@
+.all-users {
+  margin-left: 10px;
+  .users {
+    background-color: #8a4baf;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+    & button {
+      background-color: yellow;
+      color: black;
+      padding: 5px 10px;
+      border: none;
+      border-radius: 5px;
+    }
+  }
+}

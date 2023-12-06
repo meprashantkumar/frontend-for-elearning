@@ -1,0 +1,44 @@
+.payment-success-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
+  background-color: #f5f5f5;
+}
+
+.success-message {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+.success-message h2 {
+  font-size: 24px;
+  color: #8a4baf; /* Purple theme color */
+  margin-bottom: 15px;
+}
+
+.success-message p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.success-message a {
+  display: inline-block;
+  background-color: #8a4baf; /* Purple theme color */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.success-message a:hover {
+  background-color: #5f357e; /* Darker purple on hover */
+}
